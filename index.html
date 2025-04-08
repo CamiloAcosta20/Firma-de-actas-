@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acta de Entrega de Equipos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .acta {
+        border: 1px solid #94fd0b;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+      }
+      .firma {
+        margin-top: 20px;
+      }
+      .logo {
+        max-width: 150px;
+        margin-bottom: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container my-5">
+      <div class="text-center">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Grupo-Nutresa-logo-bg.png/1200px-Grupo-Nutresa-logo-bg.png" alt="Logo Grupo Nutresa" class="logo">
+        <h1 class="mb-4">Acta de Entrega de Equipos</h1>
+      </div>
+      <div class="acta">
+        <h5 class="text-center mb-4">Información del Usuario quien recibe el equipo</h5>
+        <form>
+          <div class="mb-3">
+            <label for="numeroActa" class="form-label"><strong>Número de Acta:</strong></label>
+            <input type="number" class="form-control" id="numeroActa" placeholder="Escriba el número de acta aquí...">
+          </div>
+          <div class="mb-3">
+            <label for="nombreApellidos" class="form-label"><strong>Nombres y Apellidos:</strong></label>
+            <input type="text" class="form-control" id="nombreApellidos" placeholder="Nombre y Apellidos">
+          </div>
+          <div class="mb-3">
+            <label for="empresa" class="form-label"><strong>Empresa:</strong></label>
+            <select class="form-select" id="empresa">
+              <option value="serviciosNutresa">Servicios Nutresa</option>
+              <option value="comercialNutresa">Comercial Nutresa</option>
+              <option value="novaventa">Novaventa</option>
+              <option value="negociosCarnicos">Negocios Cárnicos</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="area" class="form-label"><strong>Área:</strong></label>
+            <input type="text" class="form-control" id="area" placeholder="Escriba el área aquí...">
+          </div>
+          <div class="mb-3">
+            <label for="sede" class="form-label"><strong>Sede:</strong></label>
+            <input type="text" class="form-control" id="sede" placeholder="Escriba la sede aquí...">
+          </div>
+          <div class="mb-3">
+            <label for="telefono" class="form-label"><strong>Teléfono:</strong></label>
+            <input type="tel" class="form-control" id="telefono" placeholder="+57 300 1234567">
+          </div>
+          <div class="mb-3">
+            <label for="nombreEquipo" class="form-label"><strong>Nombre del Equipo:</strong></label>
+            <input type="text" class="form-control" id="nombreEquipo" placeholder="Escriba el nombre del equipo aquí...">
+          </div>
+        </form>
+      </div>
+      <div class="acta">
+        <h5 class="text-center mb-4">Detalles del Equipo</h5>
+        <form>
+          <div class="mb-3">
+            <label for="tipoEquipo" class="form-label"><strong>Tipo de Equipo:</strong></label>
+            <select class="form-select" id="tipoEquipo">
+              <option value="laptop">Laptop</option>
+              <option value="desktop">Desktop</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="serialMouse" class="form-label"><strong>Serial Mouse:</strong></label>
+            <input type="text" class="form-control" id="serialMouse" placeholder="Escriba el serial del mouse aquí...">
+          </div>
+          <div class="mb-3">
+            <label for="serialCargador" class="form-label"><strong>Serial Cargador:</strong></label>
+            <input type="text" class="form-control" id="serialCargador" placeholder="Escriba el serial del cargador aquí...">
+          </div>
+          <div class="mb-3">
+            <label for="guaya" class="form-label"><strong>Guaya:</strong></label>
+            <select class="form-select" id="guaya">
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="morral" class="form-label"><strong>Morral:</strong></label>
+            <select class="form-select" id="morral">
+              <option value="si">Sí</option>
+              <option value="no">No</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="otros" class="form-label"><strong>Otros:</strong></label>
+            <input type="text" class="form-control" id="otros" placeholder="Escriba otros elementos aquí...">
+          </div>
+        </form>
+      </div>
+      <div class="acta">
+        
+        <p>
+          "EL EMPLEADO hace constar que ha recibido de EL EMPLEADOR, en perfecto estado y únicamente para el desarrollo de las labores a su cargo, los activos antes relacionados, obligándose a realizar una administración y custodia idónea de los mismos; lo cual permita la conservación y restitución de los activos en buen estado, salvo su deterioro natural y obvio.
+ 
+          Acepta EL EMPLEADO que es su responsabilidad el salvaguardar los activos y no darles un uso diverso al establecido por la Empresa; así como no exponerlo de manera negligente a situaciones de posible hurto o perdida. EL EMPLEADO se compromete a informar oportunamente al área de TI cualquier perdida o hurto y a formular de inmediato la respectiva denuncia ante las autoridades competentes, así como a entregarle a EL EMPLEADOR copia de dicho documento para con él gestionar lo pertinente.
+          AUTORIZACIÓN DE DESCUENTOS POR DAÑOS, PERDIDA Y HURTOS. En caso de pérdida, hurto o daño de los activos relacionados por negligencia, falta de control o incumplimiento de los instructivos y reglamentos definidos para la conservación y custodia de los mismos por parte del EMPLEADO previamente comprobada, éste autoriza expresamente a EL EMPLEADOR para que del valor de sus salarios le sea descontada la cantidad necesaria para reparar o restituir el o los activos que le fueron entregados, asimismo faculta a EL EMPLEADOR, para que compense, una vez terminado su contrato de trabajo, el saldo insoluto con cualquier suma de dinero que le corresponda en su liquidación final de prestaciones, salarios e indemnizaciones, de conformidad con lo dispuesto para tal evento en los artículos 59, numeral 1o. y 149, inciso 1o., del Código Sustantivo del Trabajo, todo ello, bajo los parámetros de ley".
+          
+        </p>
+      </div>
+      <div class="acta">
+        <h5 class="text-center mb-4">Información del Usuario quien recibe el equipo</h5>
+        <form>
+          <div class="mb-3">
+            <label for="numeroActa" class="form-label"></label>
+          </div>
+          <div class="text-center mt-4">
+            <label for="firma" class="form-label"><strong>Ingrese su firma:</strong></label>
+            <canvas id="signaturePad" width="400" height="200" class="border"></canvas><br>
+            <button class="btn btn-secondary mt-2" type="button" onclick="clearSignature()">Limpiar Firma</button>
+            <button class="btn btn-primary mt-2" type="button" onclick="saveSignature()">Guardar Firma</button>
+            <button id="sendButton" class="btn btn-success mt-2" type="button" style="display: none;" onclick="sendSignature()">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      const canvas = document.getElementById('signaturePad');
+      const ctx = canvas.getContext('2d');
+      let drawing = false;
+
+      // Eventos para dibujar en el canvas
+      canvas.addEventListener('mousedown', () => drawing = true);
+      canvas.addEventListener('mouseup', () => {
+        drawing = false;
+        ctx.beginPath();
+      });
+      canvas.addEventListener('mousemove', draw);
+
+      function draw(event) {
+        if (!drawing) return;
+        ctx.lineWidth = 2;
+        ctx.lineCap = 'round';
+        ctx.strokeStyle = 'black';
+        ctx.lineTo(event.offsetX, event.offsetY);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(event.offsetX, event.offsetY);
+      }
+
+      // Función para limpiar la firma
+      function clearSignature() {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        const sendButton = document.getElementById('sendButton');
+        if (sendButton) {
+          sendButton.style.display = 'none'; // Ocultar el botón "Enviar" al limpiar
+        }
+      }
+
+      // Función para guardar la firma
+      function saveSignature() {
+        const sendButton = document.getElementById('sendButton');
+        if (sendButton) {
+          sendButton.style.display = 'inline-block'; // Mostrar el botón "Enviar" al guardar
+        }
+        const firma = canvas.toDataURL();
+        const sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
+        sheet.appendRow([new Date(), firma]);
+      }
+
+      // Función para enviar la firma
+      async function sendSignature() {
+        const email = prompt('Ingrese el correo electrónico donde desea enviar una copia:');
+        if (email) {
+          const formData = {
+            numeroActa: document.getElementById('numeroActa').value,
+            nombreApellidos: document.getElementById('nombreApellidos').value,
+            empresa: document.getElementById('empresa').value,
+            area: document.getElementById('area').value,
+            sede: document.getElementById('sede').value,
+            telefono: document.getElementById('telefono').value,
+            nombreEquipo: document.getElementById('nombreEquipo').value,
+            tipoEquipo: document.getElementById('tipoEquipo').value,
+            serialMouse: document.getElementById('serialMouse').value,
+            serialCargador: document.getElementById('serialCargador').value,
+            guaya: document.getElementById('guaya').value,
+            morral: document.getElementById('morral').value,
+            otros: document.getElementById('otros').value,
+            firma: canvas.toDataURL(),
+            email: email
+          };
+
+          google.script.run.withSuccessHandler(() => {
+            alert('El formato ha sido enviado correctamente.');
+          }).sendFormData(formData);
+        }
+      }
+    </script>
+</body>
+</html>
